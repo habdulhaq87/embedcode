@@ -28,7 +28,7 @@ def main():
 
     # Load the dataset
     try:
-        data_path = "C:\\Users\\sourc\\OneDrive\\Desktop\\Python\\dataset\\lego_block_dataset_with_availability.csv"
+        data_path = "lego_block_dataset_with_availability.csv"
         lego_data = pd.read_csv(data_path)
     except Exception as e:
         st.error(f"Failed to load the dataset: {e}")
